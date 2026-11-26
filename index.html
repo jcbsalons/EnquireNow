@@ -3,32 +3,41 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JCB Privé | By Invitation Only</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+<title>Enquire Now</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
-  body { background:#000; color:#fff; text-align:center; font-family:Montserrat,sans-serif; }
-  main { max-width:430px; margin:auto; padding:32px 20px 40px; }
-  .logo { width:130px; filter:grayscale(1) invert(1); mix-blend-mode:screen; }
-  .poster { display:block; width:100%; margin-top:24px; }
-  .line { width:60px; height:1px; background:#c6a15b; margin:28px auto 18px; }
-  h1 { font:500 25px 'Cormorant Garamond',serif; color:#d8b878; letter-spacing:1px; }
-  .sub { font-size:10px; font-weight:300; letter-spacing:3px; margin:10px 0 26px; color:#bbb; }
-  .btn { display:block; padding:17px 10px; margin-bottom:14px; border:1px solid #c6a15b; text-decoration:none; text-transform:uppercase; font-size:12px; letter-spacing:3px; }
-  .gold { background:linear-gradient(135deg,#a98443,#ead29a,#a98443); color:#000; }
-  .outline { color:#d8b878; }
-  .foot { margin-top:22px; font-size:9px; letter-spacing:3px; color:#777; }
+  body {
+    min-height:100vh; text-align:center; font-family:Montserrat,sans-serif;
+    background:#050505 radial-gradient(ellipse at top,#211b10,#050505 65%);
+  }
+  main { max-width:440px; margin:auto; padding:20px 18px 40px; }
+  .frame { padding:7px; border:1px solid #8f7340; background:#000; box-shadow:0 18px 50px #000; }
+  .frame img { display:block; width:100%; }
+  h1 { margin-top:34px; font:500 36px 'Cormorant Garamond',serif; letter-spacing:4px; text-transform:uppercase; color:#e2c58b; }
+  .divider { width:70px; height:1px; margin:14px auto; background:#b99a5b; }
+  .sub { font-size:10px; font-weight:300; letter-spacing:3px; color:#c9c3b8; margin-bottom:28px; }
+  .btn {
+    display:block; max-width:340px; margin:0 auto 16px; padding:18px;
+    border:1px solid #c6a15b; border-radius:2px; text-decoration:none;
+    text-transform:uppercase; font-size:13px; font-weight:500; letter-spacing:4px;
+  }
+  .gold { color:#120e05; background:linear-gradient(110deg,#a47d39,#f0daa4 50%,#a47d39); }
+  .outline { color:#e2c58b; background:transparent; }
+  .btn:active { transform:scale(0.98); }
+  .foot { margin-top:28px; font-size:9px; letter-spacing:5px; color:#8c867b; }
 </style>
 </head>
 <body>
 <main>
-  <img class="logo" src="logo.png.png" alt="Jean-Claude Biguine Salon & Spa">
-  <img class="poster" src="photo.jpg.jpg" alt="JCB Privé invitation: Javed Khan at JCB Wakad">
-  <div class="line"></div>
-  <h1>Reserve Your Private Appointment</h1>
-  <p class="sub">LIMITED APPOINTMENTS AVAILABLE</p>
-  <a class="btn gold" href="tel:+919137156758">Call to Reserve</a>
-  <a class="btn outline" href="tel:+919082840084">Alternate Line</a>
+  <div class="frame">
+    <img src="photo.jpg.jpg" alt="JCB Privé invitation: Javed Khan at JCB Wakad">
+  </div>
+  <h1>Enquire Now</h1>
+  <div class="divider"></div>
+  <p class="sub">RESERVE YOUR PRIVATE APPOINTMENT</p>
+  <a class="btn gold" href="tel:+919137156758">Number 1</a>
+  <a class="btn outline" href="tel:+919082840084">Number 2</a>
   <p class="foot">JCB WAKAD</p>
 </main>
 </body>
