@@ -6,7 +6,7 @@
   <title>Call Me</title>
 </head>
 <body style="text-align:center; padding-top:80px; font-family:sans-serif">
-  <a href="tel:+919876543210" style="font-size:24px">Call Now</a>
+  <a href="tel:+919137156757" style="font-size:24px">Call Now</a>
   <script>location.href = "tel:+919137156757";</script>
 </body>
 </html>
